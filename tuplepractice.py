@@ -4,4 +4,4 @@ tuple_cities_2[0] = 'shimla'
 
 for index, city in enumerate(tuple_cities, start=1):
     print(f'{index}: {city}')
-# tuples are immutable, we cannot change the value of a tuple once it is created.
+# tuples are immutable, we cannot change the value of a tuple once it is created. additionally, tuples can be used as keys in dictionaries, while lists cannot.
